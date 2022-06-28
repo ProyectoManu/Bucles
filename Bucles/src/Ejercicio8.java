@@ -17,6 +17,7 @@ public class Ejercicio8 {
 		System.out.println("Introduce un número: ");
 		int num = entrada.nextInt();
 		System.out.println("Los divisores del número son ");
+		
 		for(int i=1;i<=num;i++) {
 			
 			if (num%i ==0) {
